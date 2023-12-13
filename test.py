@@ -21,7 +21,7 @@ def resize_image_with_lowered_quality(original_image_path, output_directory):
     return processed_image_path
 
 # Example usage:
-original_image_path = "rasmlar/photo.jpg"  # Replace this with your original image path
+original_image_path = "rasmlar/test1.jpeg"  # Replace this with your original image path
 output_path = "processed_images"  # Replace this with the desired output directory
 
 resulting_path = resize_image_with_lowered_quality(original_image_path, output_path)
